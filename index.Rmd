@@ -1,0 +1,86 @@
+---
+title: Course slides
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default", "assets/sydney-fonts.css", "assets/sydney.css"]
+    seal: false
+    nature:
+      beforeInit: ["assets/remark-zoom.js"]
+      highlightStyle: github
+      highlightLines: true
+      highlightLanguage: ["r"]
+      countIncrementalSlides: false      
+      ratio: "16:9"
+    includes:
+      in_header: "assets/mathjax-equation-numbers.html"  
+---
+
+```{r setup, include=FALSE}
+  options(htmltools.dir.version = FALSE)
+  knitr::opts_chunk$set(
+    message = F, 
+    warning = F, 
+    eval = T, 
+    echo = F,
+    fig.align = 'center', 
+    dev = 'svglite'
+  )
+```
+
+
+
+class: partial-bg50, middle
+
+.pull-left[
+```{r, out.width="75%"}
+knitr::include_graphics("assets/classlogo.png")
+```
+]
+
+.pull-right[
+# 01 - Introduction
+
+- The Monty Hall problem
+
+- Course, syllabus, etc
+
+- Tech setup
+
+  - Key packages
+
+  - Linking to GitHub
+]
+
+
+---
+# Slide 1
+## sub
+
+
+---
+class: partial-bg50, middle, center
+
+
+
+
+.pull-right[
+
+# Contact Me
+
+<a href="mailto:ahart@american.edu">
+`r fontawesome::fa("paper-plane")` ahart@american.edu
+</a>
+
+<a href="https://austin-hart.netlify.app">
+`r fontawesome::fa("house-chimney-user")` austin-hart.netlify.app
+</a>
+
+
+<a href="https://github.com/austin-hart-pols">
+`r fontawesome::fa("github")` @austin-hart-pols
+</a>
+
+<br><br><br>
+
+]
