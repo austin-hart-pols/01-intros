@@ -525,7 +525,7 @@ R=241 G=241 B=241
 */
 
 .partial-bg50 {
-  background-image: linear-gradient(90deg, #FFB800 50%, white 50%);
+  background-image: linear-gradient(90deg, #0148A4 50%, white 50%);
 }
 
 .partial-bg50 .remark-slide-number {
